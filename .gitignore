@@ -13,6 +13,8 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 sitemap.xml
 sitemap.xml.gz
+wp-content/themes/cd-2021-child/node_modules
+
 
 # @TODO writable paths
 wp-content/cache/
