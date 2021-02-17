@@ -1,0 +1,6 @@
+name: churchhill
+recipe: pantheon
+config:
+  framework: wordpress
+  site: churchhill
+  id: ccc757ec-9baa-4730-9a90-c1191f25da25
