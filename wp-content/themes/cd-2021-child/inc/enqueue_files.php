@@ -3,11 +3,11 @@
 /* enqueue scripts and style from parent and child theme */        
 function cdChild_styles() {
 
-	wp_dequeue_style( 'twenty-twenty-one-style' );
-	wp_deregister_style( 'twenty-twenty-one-style' );
+	// wp_dequeue_style( 'twenty-twenty-one-style' );
+	// wp_deregister_style( 'twenty-twenty-one-style' );
 
 
-	wp_enqueue_style( '2021parent', get_stylesheet_directory_uri() . '/style.css' );
+	// wp_enqueue_style( '2021parent', get_stylesheet_directory_uri() . '/style.css' );
 	wp_enqueue_style( 'child', get_stylesheet_directory_uri() . '/dist/styles/main.css' );
 
 }
