@@ -1,9 +1,12 @@
 <?php 
 
+
+
 $cd_includes = array(
 	'enqueue_files',
 	'options_page',
 	'cpt_registration',
+	'twentytwentyone_overrides'
 	// 'register_sidebar'
    );
    
@@ -12,6 +15,8 @@ $cd_includes = array(
 		   require_once get_stylesheet_directory() . '/inc/' . $file . '.php';
 	   }
    
+
+
 
 
 
