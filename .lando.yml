@@ -32,11 +32,11 @@ tooling:
   prod:
     service: node
     description: '-- Runs production build of assets'
-    cmd: cd $LANDO_MOUNT/wp-content/themes/cd-2021-child/ && npm install && npm run prod
+    cmd: cd $LANDO_MOUNT/wp-content/themes/tailpress/ && npm install && npm run development
   watch:
     service: node
     description: '-- Runs development build of assets and watch file changes'
-    cmd: cd $LANDO_MOUNT/wp-content/themes/cd-2021-child/ && npm install && npm run watch
+    cmd: cd $LANDO_MOUNT/wp-content/themes/tailpress/ && npm install && npm run watch
   xdebug-on:
     service: appserver
     description: '-- Enable Xdebug for NGINX'
